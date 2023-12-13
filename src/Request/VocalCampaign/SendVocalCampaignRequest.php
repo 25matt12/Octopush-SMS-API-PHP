@@ -12,7 +12,7 @@ class SendVocalCampaignRequest extends BaseRequest
     public const WHOLESALE_TRANSACTIONAL = 'wholesale';
     public const ALERT_TRANSACTIONAL = 'alert';
 
-    private const URI = 'vocal-campaign/send';
+    private const URI = 'voice-campaign/send';
 
     /** @var array */
     private $recipients;
